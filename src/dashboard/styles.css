@@ -1,0 +1,4 @@
+/** Hide the datatable search box */
+.dataTables_filter {
+    display: none;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "sp-dashboard-react",
+  "version": "1.0.0",
+  "description": "A basic dashboard solution for SharePoint 2013/Online.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sp-dashboard-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sp-dashboard-react/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sp-dashboard-react#readme",
+  "dependencies": {
+    "datatables.net": "^1.10.21",
+    "datatables.net-dt": "^1.10.21",
+    "gd-sprest-bs": "^4.6.1",
+    "gd-sprest-bsx": "^0.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
