@@ -21,8 +21,8 @@
   "dependencies": {
     "datatables.net": "^1.10.21",
     "datatables.net-dt": "^1.10.21",
-    "gd-sprest-bs": "^4.6.1",
-    "gd-sprest-bsx": "^0.3.3"
+    "gd-sprest-bs": "^4.6.3",
+    "gd-sprest-bsx": "^0.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

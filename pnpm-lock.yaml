@@ -1,8 +1,8 @@
 dependencies:
   datatables.net: 1.10.21
   datatables.net-dt: 1.10.21
-  gd-sprest-bs: 4.6.1
-  gd-sprest-bsx: 0.3.3
+  gd-sprest-bs: 4.6.3
+  gd-sprest-bsx: 0.3.5
 devDependencies:
   '@babel/core': 7.10.2
   '@babel/preset-env': 7.10.2_@babel+core@7.10.2
@@ -1469,7 +1469,7 @@ packages:
   /browserslist/4.12.0:
     dependencies:
       caniuse-lite: 1.0.30001077
-      electron-to-chromium: 1.3.458
+      electron-to-chromium: 1.3.459
       node-releases: 1.1.58
       pkg-up: 2.0.0
     dev: true
@@ -1790,7 +1790,7 @@ packages:
       create-hmac: 1.1.7
       diffie-hellman: 5.0.3
       inherits: 2.0.4
-      pbkdf2: 3.1.0
+      pbkdf2: 3.1.1
       public-encrypt: 4.0.3
       randombytes: 2.1.0
       randomfill: 1.0.4
@@ -1976,10 +1976,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.458:
+  /electron-to-chromium/1.3.459:
     dev: true
     resolution:
-      integrity: sha512-OjRkb0igW0oKE2QbzS7vBYrm7xjW/KRTtIj0OGGx57jr/YhBiKb7oZvdbaojqjfCb/7LbnwsbMbdsYjthdJbAw==
+      integrity: sha512-aN3Z89qEYIwVjzGi9SrcTjjopRZ3STUA6xTufS0fxZy8xOO2iqVw8rYKdT32CHgOKHOYj5KGmz3n6xUKE4QJiQ==
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.9
@@ -2302,35 +2302,35 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.6.1:
+  /gd-bs/2.6.3:
     dependencies:
       bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
       jquery: 3.5.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-vVNXHSArldCWuE9Iro/PMxMsWabsWJxgExy2IezaFOQeYfladYjuK+zoo0cjEAs/gg0IUclOkIukrO7Ow4C6ow==
-  /gd-bsx/0.4.0:
+      integrity: sha512-2alKmTYk3kN20CzK8tIL+bGlAtmydNnr4PdqsYwv7nejrusRpHABHpeoGXbvCsfd1l/8+qX+1jDGCHwSi6KlPg==
+  /gd-bsx/0.4.1:
     dependencies:
-      gd-bs: 2.6.1
+      gd-bs: 2.6.3
     dev: false
     resolution:
-      integrity: sha512-SvloEiJKz0I0Mc7DcJMPpsQ8JfMQHlpum9sDPGGohK8g+JHC2wq2X5lR1YAUBKqHrtPHWDkTXcb+sXUJATpEwg==
-  /gd-sprest-bs/4.6.1:
+      integrity: sha512-2o/XPE4jMBZSl+yX2pGTxFbGTvtBWgyBd7LKCZ4Wls0simuGDe47sPAKIUVzlPwSXNlTsrfiKGmWNArJGXHj4Q==
+  /gd-sprest-bs/4.6.3:
     dependencies:
-      gd-bs: 2.6.1
+      gd-bs: 2.6.3
       gd-sprest: 5.7.5
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-IB73NNFvP6BIzWnQdBoYKK/UoStAginHWJg9MC9kSMCnN+6lVCc+OsuWQoYHsVeeX6fhrnK8ZQgKRXuEZMZM7g==
-  /gd-sprest-bsx/0.3.3:
+      integrity: sha512-6Cr8ze/NO3n5KCXBgROGpSB6wHw21uxoq1BviFCyVOSDrx7ZfVtIl2qmaNEXpA2qk9ys6UdCq9ZFxoc77w7A5A==
+  /gd-sprest-bsx/0.3.5:
     dependencies:
-      gd-bsx: 0.4.0
-      gd-sprest-bs: 4.6.1
+      gd-bsx: 0.4.1
+      gd-sprest-bs: 4.6.3
     dev: false
     resolution:
-      integrity: sha512-d4CvJlWZ3yBo2RNuFik1TKESxhZM5tHZA/37kKVjb3EdMwv7YNYIKn0x/i4YUj1WzNy7QAwVBKa4Vx6eB+kSeQ==
+      integrity: sha512-kuy4/N1LusqUu9ehRp4UUXf3CYiDgueODweqC/4aY+VbWUBYC7JG/zKg3RpbDCLjFmX3RaxhxS2RVTwHG5Z69g==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -3446,7 +3446,7 @@ packages:
       browserify-aes: 1.2.0
       create-hash: 1.2.0
       evp_bytestokey: 1.0.3
-      pbkdf2: 3.1.0
+      pbkdf2: 3.1.1
       safe-buffer: 5.2.1
     dev: true
     resolution:
@@ -3505,7 +3505,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
-  /pbkdf2/3.1.0:
+  /pbkdf2/3.1.1:
     dependencies:
       create-hash: 1.2.0
       create-hmac: 1.1.7
@@ -3516,7 +3516,7 @@ packages:
     engines:
       node: '>=0.12'
     resolution:
-      integrity: sha512-wHMFZ6HTLGlB9f/WsQBs5OwMQJoLXYuJUzbA+j+hRBf7+Y8KcXpatzIviIcTy1OAyhWQp08nyiPO8Dnv0z4Sww==
+      integrity: sha512-4Ejy1OPxi9f2tt1rRV7Go7zmfDQ+ZectEQz3VGUQhgq62HtIRPDyG/JtnwIxs6x3uNMwo2V7q1fMvKjb+Tnpqg==
   /picomatch/2.2.2:
     dev: true
     engines:
@@ -4645,8 +4645,8 @@ specifiers:
   css-loader: ^3.5.3
   datatables.net: ^1.10.21
   datatables.net-dt: ^1.10.21
-  gd-sprest-bs: ^4.6.1
-  gd-sprest-bsx: ^0.3.3
+  gd-sprest-bs: ^4.6.3
+  gd-sprest-bsx: ^0.3.5
   html-loader: ^1.1.0
   react: ^16.13.1
   react-dom: ^16.13.1
