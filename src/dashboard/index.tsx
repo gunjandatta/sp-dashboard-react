@@ -40,13 +40,10 @@ export class Dashboard extends React.Component<IDashboardProps, IDashboardState>
             <div>
                 <div className="row">
                     <div className="col">
-                        {
-                            this.state.newFormUrl == null ? null :
-                                <Navigation
-                                    formUrl={this.state.newFormUrl}
-                                    onSearch={value => { table.search(value); }}
-                                />
-                        }
+                        <Navigation
+                            formUrl={this.state.newFormUrl}
+                            onSearch={value => { table.search(value); }}
+                        />
                     </div>
                 </div>
                 <div className="row">
@@ -58,13 +55,10 @@ export class Dashboard extends React.Component<IDashboardProps, IDashboardState>
                 </div>
                 <div className="row">
                     <div className="col">
-                        {
-                            this.state.displayFormUrl == null ? null :
-                                <DataTable
-                                    formUrl={this.state.displayFormUrl}
-                                    ref={obj => { table = obj; }}
-                                />
-                        }
+                        <DataTable
+                            formUrl={this.state.displayFormUrl}
+                            ref={obj => { table = obj; }}
+                        />
                     </div>
                 </div>
             </div>
