@@ -1,5 +1,6 @@
+import * as jQuery from "jquery";
 import * as React from "react";
-import { Helper, jQuery, List, SPTypes, Types } from "gd-sprest-bs";
+import { Helper, List, SPTypes, Types } from "gd-sprest-bs";
 import { Components, Table } from "gd-sprest-bsx";
 import Strings from "../strings";
 

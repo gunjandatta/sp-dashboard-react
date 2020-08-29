@@ -9,6 +9,8 @@ import "./styles";
 // Dashboard Properties
 interface IDashboardProps { }
 
+// TODO - Update to not use "ref"
+
 // Dashboard State
 interface IDashboardState {
     displayFormUrl: string;
@@ -57,7 +59,6 @@ export class Dashboard extends React.Component<IDashboardProps, IDashboardState>
                     <div className="col">
                         <DataTable
                             formUrl={this.state.displayFormUrl}
-                            ref={obj => { table = obj; }}
                         />
                     </div>
                 </div>
